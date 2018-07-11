@@ -41,15 +41,7 @@ background-position: center;
 background-size: cover;
 height: 225px;
 padding: 200px;
-}
-
-div.banner h1 {
-    color: white;
-    text-align: right;
-}
-div.banner p {
-    color: white;
-    text-align: bottom;
+color: white;
 }
 #banner {
 display: grid;
@@ -58,8 +50,4 @@ display: grid;
 }
 .banner p {
 grid-column: foot;
-}
-div.banner h4 {
-    color: white;
-    text-align: bottom;
 }
