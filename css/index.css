@@ -4,8 +4,9 @@
     font-family: 'Hind Madurai', sans-serif;
 }
 body {
-    max-width: 980px;
+    max-width: 1100px;
     margin: auto;
+    background-color:#D2B48C;
 }
 
 header nav {
@@ -38,9 +39,9 @@ header nav ul li a:hover {
 div.banner {
 background-image: url(../img/dutuna1.jpg);
 background-position: center;
-background-size: cover;
+background-size: right;
 height: 225px;
-padding: 200px;
+padding: 250px;
 color: white;
 }
 #banner {
@@ -50,4 +51,26 @@ display: grid;
 }
 .banner p {
 grid-column: foot;
+}
+.banner-dim{
+	position : right;
+	top : 100px;
+	left : 0;
+	width : 100%;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 350px 100px;
+  background-color:#FFFFE0;
+  border-color: #800000;
+  max-width: 1100px;
+    margin: auto;
+}
+.wrapper div {
+  padding: 6px;
+}
+.w-100 {
+    weidth: 500px;
 }
